@@ -207,6 +207,7 @@ header {
     transition: border-bottom 0.2s;
 }
 
+
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #d6b161;
@@ -429,6 +430,9 @@ header {
     outline: none;
 }
 
+.contact-form textarea {
+    width: 89%;
+}
 .contact-form input[type="submit"] {
     width: 90%;
     height: 37px;
