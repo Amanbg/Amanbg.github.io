@@ -106,8 +106,8 @@ a:visited {
 
 .btn-full:hover,
 .btn-full:active {
-    background-color: #cc9d39;
-    color: #fff;
+    background-color: transparent;
+    color: #d6b161;
     padding: 10px 10px;
     font-weight: 600;
     border: 1px solid #d6b161;
@@ -306,6 +306,9 @@ header {
 
 /*SKILLS*/
 
+.skills-top-style{
+    margin-top:4%;
+}
 .skills {
     padding: 6% 0 2% 0;
 }
@@ -482,7 +485,7 @@ header {
     padding: 0 30px;
     border: 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .info .contact-social-links a {
