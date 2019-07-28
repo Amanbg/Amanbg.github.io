@@ -147,6 +147,7 @@ section {
 /*HEADERS*/
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('img/hero-min.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/back.jpeg');
     background-size: cover;
     background-position: center;
@@ -159,6 +160,7 @@ header {
     width: 1140px;
     top: 50%;
     left: 65%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -262,7 +264,7 @@ header {
 .section-about p {
     margin: 0;
     line-height: 30px;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .details {
@@ -366,7 +368,7 @@ header {
 }
 
 .date {
-    font-size: 70%;
+    font-size: 78%;
     color: #c19432;
     margin-bottom: 10px;
 }
@@ -380,7 +382,7 @@ header {
 }
 
 .content li p {
-    font-size: 80%;
+    font-size: 85%;
     margin: 0;
     line-height: 1.8;
     color: #7e7e7e;
