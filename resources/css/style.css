@@ -114,6 +114,10 @@ a:visited {
     font-size: 16px;
 }
 
+.ion-android-download {
+    margin-left: 5px;
+}
+
 /*RESUABLE COMPONENTS*/
 
 .row {
@@ -306,9 +310,10 @@ header {
 
 /*SKILLS*/
 
-.skills-top-style{
-    margin-top:4%;
+.skills-top-style {
+    margin-top: 4%;
 }
+
 .skills {
     padding: 6% 0 2% 0;
 }
@@ -438,6 +443,7 @@ header {
 .contact-form textarea {
     width: 89%;
 }
+
 .contact-form input[type="submit"] {
     width: 90%;
     height: 37px;

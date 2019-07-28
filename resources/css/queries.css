@@ -171,5 +171,43 @@
         margin-bottom: 10px;
     }
 
+    .content {
+        margin-left: 10%;
+    }
+
+    .title {
+        font-size: 95%;
+        margin-bottom: 10px;
+    }
+
+    .date {
+
+        font-size: 90%;
+    }
+
+    .content li p {
+        font-size: 110%;
+        margin: 15px 0 10px 0;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+        margin-right: 35px;
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .contact-form input[type="submit"] {
+        width: 100%;
+        margin-bottom: 14%;
+    }
+
+    .ion-android-download {
+    	margin-left: 5px; 
+    }
+
     /* Small phones : from 0 to 480px */
     @media only screen and (max-width: 480px) {}
